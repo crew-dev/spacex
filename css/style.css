@@ -2,8 +2,8 @@ body {
     background: #000;
     color: #fff;
     padding-top: 53px;
-    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -271,6 +271,9 @@ body {
     .features-text {
         width: 100%;
     }
+    .title {
+        font-size: 52px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -278,11 +281,25 @@ body {
         width: 100%;
         height: 430px;
     }
+    .title {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 400px) {
+    .video {
+        width: 100%;
+        height: 330px;
+    }
 }
 
 @media (max-width: 320px) {
     .video {
         width: 100%;
-        height: 340px;
+        height: 310px;
+    }
+    .item-link{
+        font-size: 11.5px;
     }
 }
+
