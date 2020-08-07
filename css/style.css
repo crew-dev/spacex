@@ -3,6 +3,7 @@ body {
     color: #fff;
     padding-top: 53px;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .header {
