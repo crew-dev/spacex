@@ -1,7 +1,3 @@
-html {
-    overflow-x: hidden;
-}
-
 body {
     background: #000;
     color: #fff;
@@ -137,6 +133,10 @@ body {
     line-height: 179.69%;
 }
 
+.table-cell{
+    color: #B2B0B2;
+}
+
 .features-title {
     font-weight: bold;
     font-size: 24px;
@@ -161,7 +161,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 130px 0;
+    padding: 130px 0px 20px 0px;
 }
 
 .footer-nav .item-link {
@@ -209,7 +209,7 @@ body {
     color: #000;
     background-color: #fff;
 }
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 768px){
     body{
         overflow-x: hidden;
     }
@@ -315,3 +315,4 @@ body {
         font-size: 11.5px;
     }
 }
+
