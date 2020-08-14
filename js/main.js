@@ -8,4 +8,9 @@ var instance = new vidbg('.video', {
   if (document.body.clientWidth < 576) {
     rellax.destroy();
   }
-  AOS.init();
+  AOS.init({
+    disable: function() {
+      var maxWidth = 768;
+      return window.innerWidth < maxWidth;
+    }
+  });
